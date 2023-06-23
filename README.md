@@ -1,3 +1,11 @@
+# how to publish new tag
+* `npm run build`
+* remove `dist` dir from `.gitignore`
+* `git add .gitignore dist/`
+* `git commit -m ....` (use --no-verify option if needed)
+* `git tag vX.X.X`
+* `git push --tags`
+
 # next-i18next
 
 [![npm version](https://badge.fury.io/js/next-i18next.svg)](https://badge.fury.io/js/next-i18next)
